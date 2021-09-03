@@ -1,18 +1,9 @@
-import React, { Component } from 'react'
-import axios from 'axios';
+import React from 'react';
+import './App.css';
+import Form from './Form/Form';
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {  }
-  }
-  render() { 
-    return ( 
-      <div>
-        <h1>ecommerce app.jsx</h1>
-      </div>
-     );
-  }
+function App() {
+  return <Form />;
 }
- 
+
 export default App;
