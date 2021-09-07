@@ -1,8 +1,22 @@
 #Homepageh1 
 {
-    background-color: lightblue
+    background-color: lightblue;
 }
 
 .secondsection {
-    border-style:dashed
+    border-style:dashed;
+}
+
+.cheetahfooter {
+    position: fixed; 
+    left: 0; 
+    bottom: 0; 
+    width: 100%;
+    text-align: center;
+}
+
+#Cheetahimage
+{
+    height: 25vh;
+    width: auto;
 }
