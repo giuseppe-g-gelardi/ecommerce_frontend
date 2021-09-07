@@ -45,7 +45,6 @@ function App() {
           <Route path='/registration' exact component={Registration}></Route>
         </Switch>
       </Router>
-
     </div>
     );
 }
