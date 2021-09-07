@@ -4,8 +4,6 @@ import cheetah from './cheetah.png'
 function Home() {
   return (
     <div className="Home">
-
-
       <div class="container">
         <div class="row">
           <div class="col-md-6">
