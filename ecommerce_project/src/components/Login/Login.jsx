@@ -5,11 +5,12 @@ import './Login.css';
 
 
 function Login() {
-  const [email, setEmail] = useState('');
+  // const [email, setEmail] = useState('');
+  const [userName, setUserName] = useState('')
   const [password, setPassword] = useState('');
 
   function validateForm() {
-    return email.length > 6 && password.length > 6;
+    return userName.length > 6 && password.length > 6;
   }
 
   function handleSubmit(e) {
@@ -18,14 +19,17 @@ function Login() {
 
   return (
     <div className="Login">
+      <h2>
+        Please enter your username and password to login
+      </h2>
       <Form onSubmit={handleSubmit}>
-        <Form.Group size="lg" controlId="email">
-          <Form.Label>Email</Form.Label>
+        <Form.Group size="lg" controlId="userName">
+          <Form.Label>Username</Form.Label>
           <Form.Control
             autoFocus
-            type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
+            type="userName"
+            value={userName}
+            onChange={(e) => setUserName(e.target.value)}
           />
         </Form.Group>
         <Form.Group size="lg" controlId="password">

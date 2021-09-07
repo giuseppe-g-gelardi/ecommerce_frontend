@@ -11,10 +11,9 @@ function Home() {
           <div class="col-md-6">
           <h1>Welcome Home!</h1>
           <span>please work</span>
-          <img src={cheetah} alt='no-alt' />
-
           </div>
           <div class="col-md-6"></div>
+            <img src={cheetah} alt='no-alt' />
           <div class="col-md-6"></div>
           <div class="col-md-6">
             <h2>
