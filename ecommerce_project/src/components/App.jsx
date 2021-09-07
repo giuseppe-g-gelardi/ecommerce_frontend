@@ -20,6 +20,7 @@ import {
 import Home from './Home/Home';
 import Login from './Login/Login';
 import Registration from './Registration/Registration';
+import SearchBar from './SearchBar/SearchBar';
 
 
 function App() {
@@ -33,9 +34,7 @@ function App() {
               <Nav.Link href='/login'> Login</Nav.Link>
               <Nav.Link href='/registration'> Register</Nav.Link>
               <Nav className="ml-auto">
-                <label style={{color: "white"}}>Search</label>
-                <input type="text" id="searchbar"></input>
-                <button type="submit">Go</button>
+                <SearchBar />
               </Nav>
           </Navbar>
         </div>
