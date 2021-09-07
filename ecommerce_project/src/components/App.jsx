@@ -32,6 +32,11 @@ function App() {
               <Nav.Link href='/home'> Home</Nav.Link>
               <Nav.Link href='/login'> Login</Nav.Link>
               <Nav.Link href='/registration'> Register</Nav.Link>
+              <Nav className="ml-auto">
+                <label style={{color: "white"}}>Search</label>
+                <input type="text" id="searchbar"></input>
+                <button type="submit">Go</button>
+              </Nav>
           </Navbar>
         </div>
         <Switch>
