@@ -6,8 +6,6 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Home from './Home/Home';
-import Login from './Login/Login';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios';
 import {
@@ -16,9 +14,12 @@ import {
   NavDropdown, 
   Form, 
   FormControl, 
-  Button
+  Button, 
+  Container
 } from 'react-bootstrap'
-import Container from 'react-bootstrap/Container'
+import Home from './Home/Home';
+import Login from './Login/Login';
+import Registration from './Registration/Registration';
 
 
 function App() {
@@ -28,13 +29,15 @@ function App() {
         <div className="navbar">
           <Navbar id='navbar' fixed='top' bg='dark' variant='dark'>
             <Navbar.Brand href=''>Fooooooooood!</Navbar.Brand>
-                <Nav.Link href='/home'> Home</Nav.Link>
-                <Nav.Link href='/login'> Login</Nav.Link>
+              <Nav.Link href='/home'> Home</Nav.Link>
+              <Nav.Link href='/login'> Login</Nav.Link>
+              <Nav.Link href='/registration'> Register</Nav.Link>
           </Navbar>
         </div>
         <Switch>
           <Route path='/home' exact component={Home}></Route>
           <Route path='/login' exact component={Login}></Route>
+          <Route path='/registration' exact component={Registration}></Route>
         </Switch>
       </Router>
 

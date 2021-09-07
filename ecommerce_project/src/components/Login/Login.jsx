@@ -37,13 +37,14 @@ function Login() {
           />
         </Form.Group>
         <div class='btn-toolbar'>
-          <Button variant='info' block size="lg" type="submit" disabled={!validateForm()}>
+          <Button variant='info' block size="md" type="submit" disabled={!validateForm()}>
             Login
           </Button>
         
-          <Button variant='dark' block size="lg" type="submit" disabled={!validateForm()}>
-            Register
-          </Button>
+        <span>
+          Not a member? sign up <a href='registration'>here</a>
+          </span>
+
         </div>
       </Form>
     </div>
