@@ -20,14 +20,9 @@ function Registration() {
     e.preventDefault();
   }
 
-
-
   return (
       <div className="Registration">
         <Form onSubmit={handleSubmit}>
-
-
-
           <Form.Group size='lg' controlId='userName'>
             <Form.Label>User Name</Form.Label>
             <Form.Control
@@ -37,9 +32,6 @@ function Registration() {
               onChange={(e) => setUserName(e.target.value)}
               />
           </Form.Group>
-
-
-
           <Form.Group size="lg" controlId="email">
             <Form.Label>Email</Form.Label>
             <Form.Control
@@ -49,7 +41,6 @@ function Registration() {
               onChange={(e) => setEmail(e.target.value)}
             />
           </Form.Group>
-
           <Form.Group size="lg" controlId="password1">
             <Form.Label>Enter a Password</Form.Label>
             <Form.Control
@@ -58,7 +49,6 @@ function Registration() {
               onChange={(e) => setPassword1(e.target.value)}
             />
           </Form.Group>
-
           <Form.Group size="lg" controlId="password2">
             <Form.Label>Confirm your Password</Form.Label>
             <Form.Control
@@ -67,23 +57,13 @@ function Registration() {
               onChange={(e) => setPassword2(e.target.value)}
             />
           </Form.Group>
-
-
-
-
-
-
-
-
           <div class='btn-toolbar'>
             <Button variant='info' block size="md" type="submit" disabled={!validateForm()}>
               Register
-            </Button>
-          
+            </Button>  
           <span>
             Already a member? Login <a href='registration'>here</a>
             </span>
-  
           </div>
         </Form>
       </div>
