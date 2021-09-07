@@ -6,8 +6,11 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Registration from './Registration/Registration';
+import Home from './Home/Home';
 import Login from './Login/Login';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import axios from 'axios';
+import Navbar from 'react-bootstrap/Navbar'
 
 
 function App() {
@@ -15,16 +18,16 @@ function App() {
     <div className="App">
       <Router>
         <div className="navbar">
-          <Link to='/login'>Login</Link>
-          <Link to='/registration'>Registration</Link>
+          <Navbar bg='dark' variant='dark'>
+            <Link to='/home'>Home</Link>
+            <Link to='/login'>Login</Link>
+          </Navbar>
         </div>
         <Switch>
-          <Route path='/registration' exact component={Registration}></Route>
-          <Route path='/Login' exact component={Login}></Route>
-
+          <Route path='/home' exact component={Home}></Route>
+          <Route path='/login' exact component={Login}></Route>
         </Switch>
       </Router>
-
     </div>
     );
 }
