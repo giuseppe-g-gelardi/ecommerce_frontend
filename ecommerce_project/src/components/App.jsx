@@ -27,9 +27,9 @@ function App() {
       <Router>
         <div className="navbar">
           <Navbar id='navbar' fixed='top' bg='dark' variant='dark'>
-            <Navbar.Brand href='#'>Fooooooooood!</Navbar.Brand>
-                <Link to='/home'> Home</Link>
-                <Link to='/login'> Login</Link>
+            <Navbar.Brand href=''>Fooooooooood!</Navbar.Brand>
+                <Nav.Link href='/home'> Home</Nav.Link>
+                <Nav.Link href='/login'> Login</Nav.Link>
           </Navbar>
         </div>
         <Switch>
