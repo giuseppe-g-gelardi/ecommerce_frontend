@@ -11,6 +11,7 @@ import Login from './Login/Login';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios';
 import Navbar from 'react-bootstrap/Navbar'
+import Container from 'react-bootstrap/Container'
 
 
 function App() {
@@ -18,10 +19,13 @@ function App() {
     <div className="App">
       <Router>
         <div className="navbar">
-          <Navbar bg='dark' variant='dark'>
-            <Link to='/home'>Home</Link>
-            <Link to='/login'>Login</Link>
-          </Navbar>
+          <Container>
+            <Navbar id='navbar' fixed='top' bg='dark' variant='dark'>
+              <Navbar.Brand href='#'>Fooooooooood!</Navbar.Brand>
+                  <Link to='/home'> Home</Link>
+                  <Link to='/login'> Login</Link>
+            </Navbar>
+          </Container>
         </div>
         <Switch>
           <Route path='/home' exact component={Home}></Route>
