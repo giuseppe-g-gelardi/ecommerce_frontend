@@ -24,6 +24,7 @@ import SearchBar from './SearchBar/SearchBar';
 import Account from './Account/Account';
 import Cart from './Cart/Cart';
 import AddProducts from './AddProducts/AddProducts';
+import FoodLogo from './FOODLogo.png';
 
 
 function App() {
@@ -36,7 +37,7 @@ function App() {
       <Router>
         <div className="navbar">
           <Navbar id='navbar' fixed='top' bg='dark' variant='dark'>
-            <Navbar.Brand id="PageTitle" href=''>Fooooooooood!</Navbar.Brand>
+            <Navbar.Brand href=''><img id="Logoimage" src={FoodLogo} alt='no-alt' /></Navbar.Brand>
               <Nav.Link id="NavLinks" href='/home'> Home</Nav.Link>
               <Nav.Link id="NavLinks" href='/login'> Login</Nav.Link>
               <Nav.Link id="NavLinks" href='/registration'> Register</Nav.Link>
@@ -48,7 +49,7 @@ function App() {
           </Navbar>
         </div>
         <Switch>
-          <Route path='/home' exact component={Home}> </Route>
+          <Route path='/home' exact component={Home}></Route>
           <Route path='/login' exact component={Login}></Route>
           <Route path='/registration' exact component={Registration}></Route>
           <Route path='/Account' exact component={Account}></Route>
