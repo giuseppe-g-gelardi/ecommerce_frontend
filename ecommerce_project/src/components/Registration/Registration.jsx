@@ -24,6 +24,9 @@ function Registration() {
       <div className="Registration">
         <Form onSubmit={handleSubmit}>
           <Form.Group size='lg' controlId='userName'>
+            <h3>
+              Create an account!
+            </h3>
             <Form.Label>Username</Form.Label>
             <Form.Control
               autoFocus
