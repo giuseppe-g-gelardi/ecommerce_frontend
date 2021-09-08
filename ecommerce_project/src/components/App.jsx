@@ -25,7 +25,11 @@ import SearchBar from './SearchBar/SearchBar';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{
+      backgroundColor: 'beige',
+      backgroundSize: 'cover',
+      height: '100vh'
+    }}>
       <Router>
         <div className="navbar">
           <Navbar id='navbar' fixed='top' bg='dark' variant='dark'>

@@ -19,3 +19,13 @@ body { padding-top: 70px; }
   background-color: rgb(173, 216, 230);
   color: rgb(255, 0, 0);
 }
+
+#PageTitle
+{
+  font-size: 250%;
+  font-style: italic;
+}
+
+body {
+  background-color: lightblue;
+}
