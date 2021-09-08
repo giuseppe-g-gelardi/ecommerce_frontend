@@ -28,11 +28,15 @@ import AddProducts from './AddProducts/AddProducts';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{
+      backgroundColor: 'beige',
+      backgroundSize: 'cover',
+      height: '100vh'
+    }}>
       <Router>
         <div className="navbar">
           <Navbar id='navbar' fixed='top' bg='dark' variant='dark'>
-            <Navbar.Brand href=''>Fooooooooood!</Navbar.Brand>
+            <Navbar.Brand id="PageTitle" href=''>Fooooooooood!</Navbar.Brand>
               <Nav.Link id="NavLinks" href='/home'> Home</Nav.Link>
               <Nav.Link id="NavLinks" href='/login'> Login</Nav.Link>
               <Nav.Link id="NavLinks" href='/registration'> Register</Nav.Link>
