@@ -9,12 +9,12 @@ import {
 import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios';
 import {
-  Navbar, 
-  Nav, 
-  NavDropdown, 
-  Form, 
-  FormControl, 
-  Button, 
+  Navbar,
+  Nav,
+  NavDropdown,
+  Form,
+  FormControl,
+  Button,
   Container
 } from 'react-bootstrap'
 import Home from './Home/Home';
@@ -58,7 +58,7 @@ function App() {
         </Switch>
       </Router>
     </div>
-    );
-}
+  )
+};
 
 export default App;
