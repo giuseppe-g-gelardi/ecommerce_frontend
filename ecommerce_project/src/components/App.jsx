@@ -43,7 +43,7 @@ function App() {
               <Nav.Link id="NavLinks" href='/login'> Login</Nav.Link>
               <Nav.Link id="NavLinks" href='/registration'> Register</Nav.Link>
               <Nav.Link id="NavLinks" href='/Account'> Account</Nav.Link>
-              <Nav.Link id="NavLinks" href='/Account'> Cart</Nav.Link>
+              <Nav.Link id="NavLinks" href='/Cart'> Cart</Nav.Link>
               <Nav className="ml-auto">
                 <SearchBar />
               </Nav>

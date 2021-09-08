@@ -34,7 +34,9 @@ function Account() {
                     <td>22363</td>
                 </tr>
             </table>
+            <button onClick type="button">Logout!</button>
         </div>
+
     )
 }
 
