@@ -14,3 +14,8 @@ body { padding-top: 70px; }
 {
   color: white;
 }
+
+.navbar a:hover {
+  background-color: rgb(173, 216, 230);
+  color: rgb(255, 0, 0);
+}
