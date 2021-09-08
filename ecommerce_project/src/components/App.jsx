@@ -36,7 +36,7 @@ function App() {
     }}>
       <Router>
         <div className="navbar">
-          <Navbar id='navbar' fixed='top' bg='dark' variant='dark'>
+          <Navbar id='navbar' fixed='top' bg='black' variant='dark'>
             <Navbar.Brand href=''><img id="Logoimage" src={FoodLogo} alt='no-alt' /></Navbar.Brand>
               <Nav.Link id="NavLinks" href='/home'> Home</Nav.Link>
               <Nav.Link id="NavLinks" href='/login'> Login</Nav.Link>
