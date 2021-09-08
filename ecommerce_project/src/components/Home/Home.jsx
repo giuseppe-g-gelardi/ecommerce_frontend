@@ -1,11 +1,10 @@
-import React from 'react'
-import Homestyle from './Home.css'
-import cheetah from './cheetah2.png'
+import React from 'react';
+import cheetah from './cheetah2.png';
+import HomeStyle from './Home.css';
 
 function Home() {
   return (
     <div className="Home">
-      <link rel="stylesheet" href={Homestyle}/>
       <div class="container">
         <div class="row">
           <h1 id="Homepageh1" class="text-center">Available Foods!</h1>
