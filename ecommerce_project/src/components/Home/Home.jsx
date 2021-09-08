@@ -1,6 +1,6 @@
 import React from 'react';
 import cheetah from './cheetah2.png';
-import './Home.css'
+import './HomeStyle.css'
 
 function Home() {
   return (
