@@ -13,9 +13,10 @@ body { padding-top: 70px; }
   background-color: rgb(173, 216, 230);
 }
 
-  #NavLinks
+#NavLinks
 {
   color: white;
+  font-size: 20px;
 }
 
 .navbar a:hover {
@@ -23,12 +24,12 @@ body { padding-top: 70px; }
   color: rgb(255, 0, 0);
 }
 
-#PageTitle
-{
-  font-size: 250%;
-  font-style: italic;
-}
-
 body {
   background-color: lightblue;
+}
+
+#Logoimage
+{
+  height: 10vh;
+  width: auto;
 }
