@@ -19,7 +19,7 @@ function Login() {
   return (
     <div className="Login">
       <h2>
-        Please enter your username and password to login
+        Please enter your username and password to login.
       </h2>
       <Form onSubmit={handleSubmit}>
         <Form.Group size="lg" controlId="userName">
