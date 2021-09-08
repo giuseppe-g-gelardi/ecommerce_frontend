@@ -30,9 +30,9 @@ function App() {
         <div className="navbar">
           <Navbar id='navbar' fixed='top' bg='dark' variant='dark'>
             <Navbar.Brand href=''>Fooooooooood!</Navbar.Brand>
-              <Nav.Link href='/home'> Home</Nav.Link>
-              <Nav.Link href='/login'> Login</Nav.Link>
-              <Nav.Link href='/registration'> Register</Nav.Link>
+              <Nav.Link id="NavLinks" href='/home'> Home</Nav.Link>
+              <Nav.Link id="NavLinks" href='/login'> Login</Nav.Link>
+              <Nav.Link id="NavLinks" href='/registration'> Register</Nav.Link>
               <Nav className="ml-auto">
                 <SearchBar />
               </Nav>
