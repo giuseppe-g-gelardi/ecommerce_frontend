@@ -18,8 +18,10 @@ function Login() {
 
   return (
     <div className="Login">
+        <span>Welcome back!</span>
+
       <h2>
-        Enter username and password
+        Enter your username and password to login
       </h2>
       <Form onSubmit={handleSubmit}>
         <Form.Group size="lg" controlId="userName">
