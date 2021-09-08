@@ -24,6 +24,7 @@ import SearchBar from './SearchBar/SearchBar';
 import Account from './Account/Account';
 import Cart from './Cart/Cart';
 import AddProducts from './AddProducts/AddProducts';
+import Products from './Products/Products';
 
 
 function App() {
@@ -54,6 +55,7 @@ function App() {
           <Route path='/Account' exact component={Account}></Route>
           <Route path='/AddProducts' exact component={AddProducts}></Route>
           <Route path='/Cart' exact component={Cart}></Route>
+          <Route path='/Products' exact component={Products}></Route>
         </Switch>
       </Router>
     </div>
