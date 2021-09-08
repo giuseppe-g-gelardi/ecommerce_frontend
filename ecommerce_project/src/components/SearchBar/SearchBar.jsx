@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Button from 'react-bootstrap/Button';
-import searchBar from './SearchBar.css';
+import './SearchBar.css';
 
 class SearchBar extends Component {
 
