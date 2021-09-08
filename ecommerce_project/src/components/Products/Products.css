@@ -1,0 +1,31 @@
+.product {
+    .make-row();
+
+    .image {
+        .make-xs-column(7);
+    }
+
+    .name {
+        .make-xs-column(4);
+    }
+}
+
+.product-description {
+    .make-row();
+
+    .description {
+        .make-xs-column(11);
+    }
+}
+
+.other-info {
+    .make-row();
+
+    .category {
+        .make-xs-column(3);
+    }
+
+    .price {
+        .make-xs-column(3);
+    }
+}

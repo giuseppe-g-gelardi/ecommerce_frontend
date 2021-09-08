@@ -9,19 +9,19 @@ import {
 import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios';
 import {
-  Navbar, 
-  Nav, 
-  NavDropdown, 
-  Form, 
-  FormControl, 
-  Button, 
+  Navbar,
+  Nav,
+  NavDropdown,
+  Form,
+  FormControl,
+  Button,
   Container
 } from 'react-bootstrap'
 import Home from './Home/Home';
 import Login from './Login/Login';
 import Registration from './Registration/Registration';
 import SearchBar from './SearchBar/SearchBar';
-
+import Products from './Products/Products';
 
 function App() {
   return (
@@ -30,13 +30,13 @@ function App() {
         <div className="navbar">
           <Navbar id='navbar' fixed='top' bg='dark' variant='dark'>
             <Navbar.Brand id="PageTitle" href=''>Fooooooooood!</Navbar.Brand>
-              <Nav.Link id="NavLinks" href='/home'> Home</Nav.Link>
-              <Nav.Link id="NavLinks" href='/login'> Login</Nav.Link>
-              <Nav.Link id="NavLinks" href='/registration'> Register</Nav.Link>
-              <Nav.Link id="NavLinks" href='/User'> User</Nav.Link>
-              <Nav className="ml-auto">
-                <SearchBar />
-              </Nav>
+            <Nav.Link id="NavLinks" href='/home'> Home</Nav.Link>
+            <Nav.Link id="NavLinks" href='/login'> Login</Nav.Link>
+            <Nav.Link id="NavLinks" href='/registration'> Register</Nav.Link>
+            <Nav.Link id="NavLinks" href='/User'> User</Nav.Link>
+            <Nav className="ml-auto">
+              <SearchBar />
+            </Nav>
           </Navbar>
         </div>
         <Switch>
@@ -46,7 +46,7 @@ function App() {
         </Switch>
       </Router>
     </div>
-    );
-}
+  )
+};
 
 export default App;
